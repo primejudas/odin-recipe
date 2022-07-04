@@ -1,0 +1,110 @@
+ul {
+  border: 0.4px solid rgb(0, 0, 0);
+  padding: 0.2em;
+}
+
+.block,
+li {
+  border: 0.6px dotted rgb(163, 190, 224);
+  padding: 0.3em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: inline-block;
+}
+button {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+
+  color: white;
+  background-color: grey;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 2em;
+  display: inline-block;
+}
+.img {
+  height: 400px;
+  width: 200px;
+  ruby-align: center;
+}
+html {
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a:hover {
+  background-color: rgb(44, 44, 44);
+  color: #fff;
+}
+.contact-us {
+  background-color: rgb(190, 188, 188);
+  padding: 4%;
+  padding-bottom: 2%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.dude {
+  background-color: rgb(250, 250, 250);
+  margin-left: 0%;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+.meme {
+  color: red;
+}
+#axes {
+  display: block;
+  text-align: center;
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 2em;
+  padding: 0.2em;
+}
+#immune {
+  background: rgb(241, 238, 238);
+  color: black;
+  width: 250px;
+  height: 350px;
+}
+
+#immune > ol {
+  display: inline-flex;
+  flex-direction: column;
+  border-left: 30px;
+  border-top: 60px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  padding-top: 1%;
+  margin-top: 1%;
+  column-gap: 10px;
+}
+.wrapper {
+  display: flex;
+  background: 2em rgb(32, 32, 51);
+  color: white;
+}
+/* .wrapper > .align { */
+/* display: flex; */
+/* background: 2em rgb(32, 32, 51); */
+/* color: white; */
+/* align-content: center; */
+/* } */
+.wrapper input[type="text"] {
+  flex: 1 1 auto;
+  padding: 1em;
+  background: 2em rgb(114, 114, 226);
+}
